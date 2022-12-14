@@ -1,0 +1,99 @@
+.App {
+    display: flex;
+    justify-content: center;
+}
+.card {
+  width: 500px;
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgb(191, 191, 191);
+    border-radius: 0px 0px 10px 10px;
+
+}
+.main {
+  width:470px;
+  display:flex;
+  flex-wrap:wrap;
+  position: relative;
+  border-bottom: 2px solid rgb(187, 187, 187);
+  padding-bottom: 20px;
+}
+.title{
+    width: 300px;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.details {
+    width:150px;
+    height: 50px;
+    font-size: 24px;
+    background-color: transparent;
+    color: #45a5f9;
+    border: 2px solid #45a5f9;
+    border-radius: 5px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.price {
+    width: 350px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+  width:470px;
+  font-size: 22px;
+  margin-top: 25px;
+  color: rgb(91, 89, 89);
+}
+.buy, .bought{
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 18px;
+    background-color: rgb(51, 99, 188); 
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.bought{
+    background-color: #45a5f9;
+}
+.delete {
+  margin-left:68px;
+  font-size:16px;
+  color: red;
+  cursor: pointer;
+}
+
+.open-details{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    left: 400px;
+    top: 35px;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+}
+.close-details {
+    height: 15px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.img img{
+   width: 500px;
+}
